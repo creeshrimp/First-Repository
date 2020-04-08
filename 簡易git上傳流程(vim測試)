@@ -1,0 +1,14 @@
+這個影片是練習git的一般流程，用VIM編輯器創建一個檔案並上傳到遠端github
+
+以下為流程:
+1.git status  -- 檢查當前狀態
+2.git pull    -- 把遠端抓下來同步，可能要在加個rebase
+3.確認版本為最新
+4.輸入vim，進入編輯器
+5.輸入你現在看到的這些文字
+6.:wq 檔名    -- 存檔並關閉
+7.git add .   -- add 全部
+8.git commit -m [版本名稱]
+9.git push origin master  -- 不太確定origin正確是代表甚麼，可能是儲存庫名稱，而master是分支名稱
+10.檢查檔案是否同步到github上
+11.結束
